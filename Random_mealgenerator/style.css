@@ -1,0 +1,40 @@
+:root {
+  --color-black: #3f454d;
+  --color-white: #ffffff;
+  --color-blue: #3b88c3;
+  --color-yellow: #fbbe28;
+  --color-pink: #fd7f84;
+  --color-light-grey: #dfdfdf;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.main > h1 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 900;
+}
+
+.main > h2 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+
+.button {
+  text-align: center;
+  padding-top: 25px;
+}
+
+.getrecipe {
+  background-color: var(--color-blue);
+  padding : 10px 10px 10px 10px;
+  border: none;
+  border-radius: 5px;
+  color: var(--color-white);
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+}
